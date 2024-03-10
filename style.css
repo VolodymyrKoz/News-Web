@@ -1,0 +1,46 @@
+.card {
+  margin-left: 50px;
+  margin-bottom: 30px;
+  border: thick double #6c7a89;
+  transition: 0.5s all;
+}
+.navbar {
+  color: rgba(255, 193, 7);
+}
+.logo {
+  width: 40px;
+  margin-right: 5px;
+}
+.card:hover {
+  box-shadow: 0px 0px 44px 0px rgba(255, 193, 7, 0.75);
+}
+.row {
+  justify-content: center;
+}
+.btn-dark {
+  padding: 10px 20px;
+  border: none;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+.btn-dark {
+  background: rgb(28, 31, 35);
+  box-shadow: 0 0 25px rrgb(28, 31, 35);
+}
+
+.btn-dark:hover {
+  box-shadow: 0 0 5px rgb(101, 107, 113), 0 0 25px rgb(101, 107, 113),
+    0 0 50px rgb(101, 107, 113), 0 0 100px rgb(101, 107, 113);
+}
+@media (max-width: 576px) {
+  .card {
+    margin-left: 0;
+  }
+}
